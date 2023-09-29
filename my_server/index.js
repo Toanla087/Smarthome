@@ -8,7 +8,7 @@ const cors = require("cors");
 var mqtt = require("./src/mqtt/index");
 mongoose
   .connect(
-    "mongodb+srv://minhtoan:toan1234@cluster0.y1aq6b5.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://minhtoan:1234@cluster0.avqmomq.mongodb.net/?retryWrites=true&w=majority",
     {
       useCreateIndex: true,
       useNewUrlParser: true,
